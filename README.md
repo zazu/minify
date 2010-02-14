@@ -1,6 +1,6 @@
 # Kohana 3.0 Minify Module 
 
-Simple Minify wrapper for Kohana 3. Yet basically tailored to suit me needs in a specific project.
+Simple Minify wrapper for Kohana 3. Yet basically tailored to suit my needs in a specific project.
 
 ## Usage
 
