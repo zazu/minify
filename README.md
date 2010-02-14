@@ -20,5 +20,7 @@ Simple Minify wrapper for Kohana 3. Yet basically tailored to suit me needs in a
 ## Credits
 
 BASED ON THE JSMIN CODE BY rgrove: http://code.google.com/p/jsmin-php 
+
 BASED ON THE CSSMIN CODE BY joe.scylla: http://code.google.com/p/cssmin
+
 BASED ON THE Kohana 2 Minify Driver by Tom Morton 
