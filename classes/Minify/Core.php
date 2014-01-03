@@ -34,7 +34,7 @@ class Minify_Core {
 	}
 	
 	public static function factory( $type ) {
-		$class = 'Minify_'.$type;
+		$class = 'Minify_'.ucfirst($type);
 		return new $class( $type );
 	}
 
@@ -67,7 +67,7 @@ class Minify_Core {
 			return $files;
 	}
 
-	// text an minifier Übergeben (per member variable)
+	// text an minifier ï¿½bergeben (per member variable)
 	public function set($input) {
 		$this->input       = str_replace("\r\n", "\n", $input);
     	$this->inputLength = strlen($this->input);
